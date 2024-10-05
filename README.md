@@ -1,6 +1,10 @@
 # API course
 
-Tot 0:55:00
+Tot 1:46:00
+
+---> ondersteuning via postman API network tools DSO API's via postman met voorbeeld request builds for each programming language 1:45:00
+example: https://www.postman.com/twilio/twilio-api/collection/ 
+https://www.postman.com/webinars/
 
 See 
 - https://www.youtube.com/watch?v=WXsD0ZgxjRw
