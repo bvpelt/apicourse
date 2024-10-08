@@ -1,6 +1,6 @@
 # API course
 
-Tot 1:46:00
+Tot 2:11:50
 
 ---> ondersteuning via postman API network tools DSO API's via postman met voorbeeld request builds for each programming language 1:45:00
 example: https://www.postman.com/twilio/twilio-api/collection/ 
@@ -21,6 +21,8 @@ Architectural constraints for a Restfull API
 - Layered System
 - Code on Demand
 - Uniform Interface
+
+[best practices](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/)
 
 ## JSON 
 JavaScript Object Notation is used to structure and nest data.
@@ -168,3 +170,8 @@ curl -X GET "https://api.twilio.com/2010-04-01/Accounts/$ACCOUNTSID/Messages.jso
 Using tools to explore API's
 
 - [restfox](https://restfox.dev/)
+
+## Video 6
+Helper libraries to extract api details
+
+
