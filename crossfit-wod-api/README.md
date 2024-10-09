@@ -29,3 +29,6 @@ DELETE "/api/v1/deleteWorkout/:workoutId"
 #### Group associated resources together
 For resources that are associated with others, it's a good practice to group them together into one endpoint and nest them properly.
 A rule of thumb is to next maximal three levels deep.
+
+#### Filtering and pagination
+As datasets grows, returning the complete dataset at once is a big performance penalty. Filtering and paging can help to give a good user experience
