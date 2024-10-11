@@ -5,8 +5,7 @@ const { saveToDatabase } = require("./utils");
 const getAllWorkouts = (filterParams) => {
     try {
         let workouts = DB.workouts;
-        if (filterParams.mode) {
-            console.log("filtering with: " + filterParams.mode);
+        if (filterParams.mode) {            
             return DB.workouts.filter((workout) =>
                 workout.mode.toLowerCase().includes(filterParams.mode.toLowerCase())   // compare same case!!!!!
             );
