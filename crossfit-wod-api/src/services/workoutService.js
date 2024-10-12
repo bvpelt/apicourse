@@ -38,6 +38,7 @@ const createNewWorkout = (newWorkout) => {
 const updateOneWorkout = (workoutId, changes) => {
   try {
     const updatedWorkout = Workout.updateOneWorkout(workoutId, changes);
+    console.log("workoutService updateOneWorkout - " + JSON.stringify(updatedWorkout));
     return updatedWorkout;
   } catch (error) {
     throw error;

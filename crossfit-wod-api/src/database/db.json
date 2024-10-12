@@ -142,6 +142,25 @@
       "id": "3dc53bc8-27b8-4773-b85d-89f0a354d437",
       "createdAt": "4/25/2022, 2:56:03 PM",
       "updatedAt": "4/25/2022, 2:56:03 PM"
+    },
+    {
+      "id": "d5f7a8f4-833f-4c6f-b64a-ffb10d200806",
+      "name": "Core",
+      "mode": "AMRAP",
+      "equipment": [
+        "abmat",
+        "spinner"
+      ],
+      "exercises": [
+        "1 thrusters",
+        "running",
+        "30 abmat sit-ups"
+      ],
+      "trainerTips": [
+        "Split your toes to bars into two sets maximum",
+        "Take the abmat sit-ups as a chance to normalize your breath"
+      ],
+      "updatedAt": "10/12/2024, 8:07:48 AM"
     }
   ],
   "members": [

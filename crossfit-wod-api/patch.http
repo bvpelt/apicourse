@@ -1,0 +1,21 @@
+PATCH http://localhost:3000/api/v1/workouts/d5f7a8f4-833f-4c6f-b64a-ffb10d200806 HTTP/1.1
+content-type: application/json
+
+
+{
+  "id": "d5f7a8f4-833f-4c6f-b64a-ffb10d200806",
+  "name": "Core",
+  "mode": "AMRAP",
+  "equipment": [    
+    "abmat"
+  ],
+  "exercises": [    
+    "1 thrusters",
+    "30 abmat sit-ups"
+  ],
+  "trainerTips": [
+    "Split your toes to bars into two sets maximum",    
+    "Keep on going"
+    "Take the abmat sit-ups as a chance to normalize your breath"
+  ]
+}

@@ -3,21 +3,19 @@ content-type: application/json
 
 
 {
-  "name": "Core Buster",
-  "mode": "AMRAP 20",
+  "name": "Core Busterx",
+  "mode": "AMRAP 201",
   "equipment": [
-    "rack",
-    "barbell",
+    "rack",    
     "abmat"
   ],
   "exercises": [
-    "15 toes to bars",
-    "10 thrusters",
+    "16 toes to bars",
+    "100 thrusters",
     "30 abmat sit-ups"
   ],
   "trainerTips": [
-    "Split your toes to bars into two sets maximum",
-    "Go unbroken on the thrusters",
+    "Split your toes to bars into two sets maximum",    
     "Take the abmat sit-ups as a chance to normalize your breath"
   ]
 }

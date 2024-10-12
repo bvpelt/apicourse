@@ -5,7 +5,7 @@ const { saveToDatabase } = require("./utils");
 const getAllWorkouts = (filterParams) => {
     try {
         let workouts = DB.workouts;
-        if (filterParams.mode) {            
+        if (filterParams.mode) {
             return DB.workouts.filter((workout) =>
                 workout.mode.toLowerCase().includes(filterParams.mode.toLowerCase())   // compare same case!!!!!
             );
@@ -52,19 +52,14 @@ const createNewWorkout = (newWorkout) => {
 
 const updateOneWorkout = (workoutId, changes) => {
     try {
-        const isAlreadyAdded =
-            DB.workouts.findIndex((workout) => workout.name === changes.name) > -1;
-        if (isAlreadyAdded) {
-            throw {
-                status: 400,
-                message: `Workout with the name '${changes.name}' already exists`,
-            };
-        }
+        console.log("Workout updateOneWorkout - changes " + JSON.stringify(changes));        
         const indexForUpdate = DB.workouts.findIndex(
             (workout) => workout.id === workoutId
         );
+        console.log("Workout updateOneWorkout - indexForUpdate " + indexForUpdate);
         if (indexForUpdate === -1) {
-            throw {
+            console.log("Workout updateOneWorkout - throw error");
+            throw {                
                 status: 400,
                 message: `Can't find workout with the id '${workoutId}'`,
             };
@@ -74,6 +69,7 @@ const updateOneWorkout = (workoutId, changes) => {
             ...changes,
             updatedAt: new Date().toLocaleString("en-US", { timeZone: "UTC" }),
         };
+        console.log("Workout updateOneWorkout - updatedWorkout: " + JSON.stringify(updatedWorkout));
         DB.workouts[indexForUpdate] = updatedWorkout;
         saveToDatabase(DB);
         return updatedWorkout;

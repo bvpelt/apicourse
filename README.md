@@ -9,6 +9,7 @@ https://www.postman.com/webinars/
 See 
 - https://www.youtube.com/watch?v=WXsD0ZgxjRw
 - https://github.com/TwilioDevEd/introduction-to-apis-notes/blob/main/course-notes.md
+- [Postman for developers](https://www.youtube.com/watch?v=henMP92Dpq0&t=8s) 
 
 
 ## Rest
