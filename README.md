@@ -33,6 +33,10 @@ JavaScript Object Notation is used to structure and nest data.
 - [Spottify for developers](https://developer.spotify.com/)
 - [Spottify WEB Api](https://developer.spotify.com/documentation/web-api)
 
+# Postman
+Postman is a tool for API testing
+- [API's building with Postman](https://www.youtube.com/watch?v=Aolgf6tQaqQ&t=2s)
+
 
 # Unit 2
 ## Video 1
